@@ -26,12 +26,12 @@ wa.me/${owner[0]}
   productListInfo: {
   productSections: [{
   title:'Klik untuk order',
-  products:[{productId:'4938898346186376'}]}],
-  headerImage: { productId: '4938898346186376', 
+  products:[{productId:'001'}]}],
+  headerImage: { productId: '001', 
   jpegThumbnail: d },
   businessOwnerJid: `${owner[0]}@s.whatsapp.net`
   },
-  footerText: 'https://github.com/Kangsad01',
+  footerText: 'https://github.com/Bellfroutcs',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
 }
