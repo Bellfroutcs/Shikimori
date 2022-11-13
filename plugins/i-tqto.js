@@ -18,8 +18,8 @@ Nurutomo:
 https://github.com/Nurutomo
 Istikmal: 
 https://github.com/BochilGaming
-Zens: 
-https://github.com/RaaaGH
+Ananda DEV: 
+https://github.com/Bellfroutcs
 Aguz Familia:
 https://github.com/FokusDotId
 
