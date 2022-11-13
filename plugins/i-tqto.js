@@ -18,7 +18,7 @@ Nurutomo:
 https://github.com/Nurutomo
 Istikmal: 
 https://github.com/BochilGaming
-Ananda DEV: 
+♡Ananda DEV♡: 
 https://github.com/Bellfroutcs
 Aguz Familia:
 https://github.com/FokusDotId
