@@ -1,23 +1,28 @@
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn }) => {
-    pepe = 'https://telegra.ph/file/b31b5f0109ff5bd098704.jpg'
+    pepe = 'https://telegra.ph/file/a48d1ab6c0dbeeda84e7d.jpg'
     baper = await fetch(pepe).then(a => a.buffer())
     let listMessage = {
-        "title": "◈ Made by Zens",
+        "title": "◈ Made by NdaDEV",
         "description": `
 ┌「 *Sewa bot* 」
 │     
-├ 1 Grup / 30 Hari
-├ Rp. 10,000 Gopay
-├ Rp. 15,000 Pulsa Three
+├ Sewa ♡
+├ Rp. 5.000     | 1 Week
+├ Rp. 10.000    | 1 Month
 │
-├ 1 Premium / 30 Hari
-├ Rp. 5,000 Gopay
-├ Rp. 10,000 Pulsa Three
+├ Premium ☆
+├ Rp. 5,000     | 1 Week
+├ Rp. 10,000    | 1 Month
+│
+│
+├ 👥: bang kok mahal banget?
+├ 👤: Tawar menawar boleh
+│
 │
 ├ tertarik? hubungi: 
-├ @62895604670507   (Zenss)
+├ @6283816797646   (Ananda DEV)
 └────
 `.trim(),
         "listType": "PRODUCT_LIST",
@@ -27,18 +32,18 @@ let handler = async (m, { conn }) => {
                     "title": "klik untuk melihat harga",
                     "products": [
                         {
-                            "productId": "4730029423700586"
+                            "productId": "001"
                         }
                     ]
                 }
             ],
             "headerImage": {
-                "productId": "4730029423700586",
+                "productId": "001",
                 "jpegThumbnail": baper
             },
-            "businessOwnerJid": "62895604670507@s.whatsapp.net"
+            "businessOwnerJid": "6283816797646@s.whatsapp.net"
         },
-        "footerText": "https://wa.me/c/62895604670507\n\nowner number : wa.me/62895604670507"
+        "footerText": "https://wa.me/c/6283816797646\n\nowner number : wa.me/6283816797646"
     }
     conn.sendMessage(m.chat, listMessage, 'listMessage', { quoted: m, contextInfo: { mentionedJid: conn.parseMention(listMessage.description) } })
 }
